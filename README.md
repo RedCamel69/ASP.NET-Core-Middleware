@@ -35,6 +35,6 @@ dotnet ef database update
 to ensure all log levels are visible.
 
 
-Two examplE epieces of middleware:
+Two example epieces of middleware:
 
 ExampleMiddleware - merely logs output to the debug output window for all requests
