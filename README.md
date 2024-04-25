@@ -41,3 +41,4 @@ Two example epieces of middleware:
 LogLevelsMiddleware - merely logs an example of each loglevel output to the debug output window for all requests
 AfterAuthentication - checks the request to see if the current user is authenticated and outputs its results to the console window
 
+![image](https://github.com/RedCamel69/ASP.NET-Core-Middleware/assets/10982602/1e859888-4b3a-4460-b595-4ceb1c1524cb)
