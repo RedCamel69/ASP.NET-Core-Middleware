@@ -18,7 +18,7 @@ dotnet ef migrations add
 2.update database
 dotnet ef database update
 
-3.Run site and register a user
+3.Run site and navigate between pages. Proceed to register a user.
 
 4.Edit AspNetUsers table setting EmailConfirmed to true or click the confirm dialog after registering.
 
@@ -41,4 +41,10 @@ Two example epieces of middleware:
 LogLevelsMiddleware - merely logs an example of each loglevel output to the debug output window for all requests
 AfterAuthentication - checks the request to see if the current user is authenticated and outputs its results to the console window
 
-![image](https://github.com/RedCamel69/ASP.NET-Core-Middleware/assets/10982602/1e859888-4b3a-4460-b595-4ceb1c1524cb)
+Below screen grab highlights in particular the output from the AfterAuthentication middleware before and after a user is registered.
+
+![image](https://github.com/RedCamel69/ASP.NET-Core-Middleware/assets/10982602/057aa41d-53a8-434a-a33b-5589a460c8e4)
+
+![image](https://github.com/RedCamel69/ASP.NET-Core-Middleware/assets/10982602/f11a5e4c-f8af-4aa3-8a9d-bbca7ac667af)
+
+
