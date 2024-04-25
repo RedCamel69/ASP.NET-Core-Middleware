@@ -9,7 +9,8 @@ Request delegates are used to build the request pipeline. The request delegates 
 
 https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0
 
-Sedtup:
+Setup:
+*****
 
 1.apply identity migrations
 dotnet ef migrations add 
