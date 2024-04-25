@@ -31,18 +31,16 @@ else
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.UseMiddleware<AfterAuthentication>();
+app.UseMiddleware<LogLevelsMiddleware>();
+
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
-app.UseMiddleware<ExampleMiddleware>();
 
 app.Run();

@@ -20,7 +20,7 @@ dotnet ef database update
 
 3.Run site and register a user
 
-4.Edit ASpNetUsers table setting EmailConfirmed to true
+4.Edit AspNetUsers table setting EmailConfirmed to true or click the confirm dialog after registering.
 
 5.edit appsettings.Development.json - 
 
@@ -38,4 +38,6 @@ to ensure all log levels are visible.
 
 Two example epieces of middleware:
 
-ExampleMiddleware - merely logs output to the debug output window for all requests
+LogLevelsMiddleware - merely logs an example of each loglevel output to the debug output window for all requests
+AfterAuthentication - checks the request to see if the current user is authenticated and outputs its results to the console window
+
