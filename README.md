@@ -13,9 +13,11 @@ Setup:
 *****
 
 1.apply identity migrations
-dotnet ef migrations add 
+
+dotnet ef migrations add initial
 
 2.update database
+
 dotnet ef database update
 
 3.Run site and navigate between pages. Proceed to register a user.
